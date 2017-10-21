@@ -21,7 +21,7 @@ int main()
     cin >> rows;  
     cin >> cols;
 
-    }while(rows < 0 || cols < 0);
+    }while(rows  =< 0 || cols =< 0);
 
     stars.resize(rows);
 
@@ -40,7 +40,6 @@ int main()
         }
         cout << endl;
     }
-
 
     return 0;
 }
