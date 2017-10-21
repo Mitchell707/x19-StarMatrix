@@ -13,24 +13,15 @@ int cols = 0;
 
 int main()
 {
-    cout << "Enter the number of rows and columns you want.\n";
+    cout << "Enter rows and columns of stars:\n";
     
-    /*
-    cin >> rows;
-    cout << "Columns: ";
-    cin >> cols;
-    cout << endl;
-    */
-
     while(rows < 1)
     {
-        cout << "Rows: ";
         cin >> rows;
     }
-
+    
     while(cols < 1)
-    {
-        cout << "Columns: ";
+    { 
         cin >> cols;
     }
 
