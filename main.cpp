@@ -13,14 +13,15 @@ int cols = 0;
 
 int main()
 {
+    do
+    {
+
     cout << "Enter rows and columns of stars:\n";
   
-        cin >> rows;
-    
-    
-   
-        cin >> cols;
-    
+    cin >> rows;  
+    cin >> cols;
+
+    }while(rows < 0 || cols < 0);
 
     stars.resize(rows);
 
