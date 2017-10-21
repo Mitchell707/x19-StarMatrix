@@ -14,16 +14,13 @@ int cols = 0;
 int main()
 {
     cout << "Enter rows and columns of stars:\n";
-    
-    while(rows < 1)
-    {
+  
         cin >> rows;
-    }
     
-    while(cols < 1)
-    { 
+    
+   
         cin >> cols;
-    }
+    
 
     stars.resize(rows);
 
